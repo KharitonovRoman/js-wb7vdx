@@ -1,6 +1,5 @@
-// Import stylesheets
-import './style.css';
+import './index.css';
+import App from './src/modules/app';
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+const app = new App();
+app.run();
